@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.andersonhelder.application.entities.Alunos;
-import com.andersonhelder.application.entities.Notas;
-import com.andersonhelder.application.repositories.AlunosRepository;
-import com.andersonhelder.application.repositories.NotasRepository;
+import com.radek.andersonhelder.entities.Alunos;
+import com.radek.andersonhelder.entities.Notas;
+import com.radek.andersonhelder.repository.AlunosRepository;
+import com.radek.andersonhelder.repository.NotasRepository;
 
 @RestController
 @RequestMapping(value = "/alunos")
